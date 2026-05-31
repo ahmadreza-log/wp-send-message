@@ -1,0 +1,55 @@
+# ─── OS generated files ───────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─── IDE / Editor ─────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# ─── Cursor ───────────────────────────────────────────────────────────────────
+.cursor/
+
+# ─── Dependencies (future use) ────────────────────────────────────────────────
+/node_modules/
+/vendor/
+
+# ─── Build / cache ────────────────────────────────────────────────────────────
+*.log
+*.cache
+/dist/
+/build/
+
+# ─── Environment & secrets ────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ─── Archives ─────────────────────────────────────────────────────────────────
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# ─── PHPUnit / testing (future use) ───────────────────────────────────────────
+/coverage/
+.phpunit.result.cache
+
+# ─── Composer (keep composer.lock; ignore only vendor/) ───────────────────────
+# vendor/ is already ignored above
+
+# ─── npm (keep package-lock.json if added later) ────────────────────────────────
+# node_modules/ is already ignored above

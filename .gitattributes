@@ -1,0 +1,34 @@
+# Normalize line endings across platforms
+* text=auto eol=lf
+
+# Explicitly declare text files
+*.php   text eol=lf
+*.js    text eol=lf
+*.css   text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.xml   text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+
+# Binary assets
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary
+*.svg   binary
+
+# Diff settings for common files
+*.php   diff=php
+*.css   diff=css
+*.html  diff=html
+
+# Linguist: exclude vendored UIkit from GitHub language stats
+assets/css/uikit*.css   linguist-vendored
+assets/js/uikit*.js     linguist-vendored
